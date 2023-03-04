@@ -53,16 +53,11 @@ body{
     margin:0px 2px 0px 2px;
 }
 
-.card_container.whitecard > IMG {
-    border-color: red;
-}
-
 .card_container > IMG, .carte{
     height: 250px;
     border: 2px solid black;
     border-radius: 10px;
 }
-
 
 .button_liste_mv{
     background-color: orangered;
