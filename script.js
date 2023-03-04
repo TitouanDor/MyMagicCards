@@ -1,6 +1,6 @@
 
 function whitebutton() {
   $(".whitecard").hide();
-  $(".whitecard").show();
+  /*$(".whitecard").show();*/
 }
   
