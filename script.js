@@ -77,4 +77,32 @@ function allbutton() {
   $(".multicard").show();
   $(".whitecard").show();
 }
+
+function mythicbutton() {
+  $(".unco").hide();
+  $(".commun").hide();
+  $(".rare").hide();
+  $(".mythic").show();
+}
+
+function rarebutton() {
+  $(".unco").hide();
+  $(".commun").hide();
+  $(".rare").show();
+  $(".mythic").hide();
+}
+
+function uncobutton() {
+  $(".unco").show();
+  $(".commun").hide();
+  $(".rare").hide();
+  $(".mythic").hide();
+}
+
+function communbutton() {
+  $(".unco").hide();
+  $(".commun").show();
+  $(".rare").hide();
+  $(".mythic").hide();
+}
   
