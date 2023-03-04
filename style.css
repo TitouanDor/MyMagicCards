@@ -1,0 +1,108 @@
+body{
+    background-color: rgb(201, 201, 124);
+}
+
+.en-tete{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 95%;
+    height: 250px;
+    margin: auto;
+    background-color: rgb(11, 11, 11);
+    border-radius:10px;
+}
+
+.en-tete img{
+    margin: auto;
+}
+
+.corp{
+    border: 5px solid rgb(65, 65, 255);
+    border-radius: 10px;
+    margin: auto;
+    width: 95%;
+    background-color: rgb(223, 223, 223);
+    padding: 20px;
+    margin-bottom: 40px;
+
+}
+
+.liste_visu{
+    width: 95%;
+    margin: auto;
+    text-align: center;
+    line-height: 225%;
+    background-color: rgb(11, 11, 11);
+    color: rgb(225, 225, 225);
+    height: 40px;
+    border-radius: 10px;
+    margin-bottom: 40px;
+}
+
+.d_carte{
+    XXXXwidth: 90%;
+    margin: auto;
+}
+
+.card_container {
+    position:relative;
+    display:inline-block;
+    margin:0px 2px 0px 2px;
+}
+
+.card_container.whitecard > IMG {
+    border-color: red;
+}
+
+.card_container > IMG, .carte{
+    height: 250px;
+    border: 2px solid black;
+    border-radius: 10px;
+}
+
+
+.button_liste_mv{
+    background-color: orangered;
+    color: white;
+    position: absolute;
+    bottom: 20px;
+    right: 20px;
+    padding: 10px;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.pre-tete{
+    width: 50%;
+    margin: auto;
+    background-color: white;
+    border: 5px solid gray;
+    border-radius: 10px;
+}
+
+.choix_mana{
+    width:30px;
+}
+
+.achat{
+    border-radius: 10px;
+    margin: auto;
+    width: 95%;
+    background-color: rgb(0, 0, 0);
+}
+
+.button_mag{
+    color: black;
+    background-color: white;
+}
+
+.im_boutton{
+    width: 15px;
+}
+
+#lien_mv {
+    position: fixed;
+    bottom: 10px;
+    right: 10px;
+}
