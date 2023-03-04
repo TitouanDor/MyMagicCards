@@ -34,6 +34,7 @@ body{
     margin: auto;
     text-align: center;
     line-height: 225%;
+    font-family: "MS Shell Dlg 2";
     background-color: rgb(11, 11, 11);
     color: rgb(225, 225, 225);
     height: 40px;
@@ -48,6 +49,7 @@ body{
 }
 
 .boutton_mana{
+    font-family: "MS Shell Dlg 2";
     margin: 0px 5px 0px 5px;
     cursor:pointer;
     border-radius: 50%;
@@ -98,9 +100,6 @@ body{
 .button_liste_mv{
     background-color: orangered;
     color: white;
-    position: absolute;
-    bottom: 20px;
-    right: 20px;
     padding: 10px;
     border-radius: 10px;
     cursor: pointer;
@@ -126,6 +125,7 @@ body{
 }
 
 .button_mag{
+    font-family: "MS Shell Dlg 2";
     color: black;
     background-color: white;
 }

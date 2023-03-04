@@ -105,4 +105,3 @@ function communbutton() {
   $(".rare").hide();
   $(".mythic").hide();
 }
-  
