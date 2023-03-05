@@ -1,88 +1,89 @@
 function whitebutton() {
+  $(".whitecard").show();
   $(".bluecard").hide();
   $(".redcard").hide();
   $(".blackcard").hide();
   $(".greencard").hide();
   $(".incolcard").hide();
   $(".multicard").hide();
-  $(".whitecard").show();
   $(".land").hide();
 }
 
 function bluebutton() {
+  $(".whitecard").hide();
   $(".bluecard").show();
   $(".redcard").hide();
   $(".blackcard").hide();
   $(".greencard").hide();
   $(".incolcard").hide();
   $(".multicard").hide();
-  $(".whitecard").hide();
   $(".land").hide();
 }
 
 function redbutton() {
+  $(".whitecard").hide();
   $(".bluecard").hide();
   $(".redcard").show();
   $(".blackcard").hide();
   $(".greencard").hide();
   $(".incolcard").hide();
   $(".multicard").hide();
-  $(".whitecard").hide();
   $(".land").hide();
 }
 
 function blackbutton() {
+  $(".whitecard").hide();
   $(".bluecard").hide();
   $(".redcard").hide();
   $(".blackcard").show();
   $(".greencard").hide();
   $(".incolcard").hide();
   $(".multicard").hide();
-  $(".whitecard").hide();
   $(".land").hide();
 }
 
 function greenbutton() {
+  $(".whitecard").hide();
   $(".bluecard").hide();
   $(".redcard").hide();
   $(".blackcard").hide();
   $(".greencard").show();
   $(".incolcard").hide();
   $(".multicard").hide();
-  $(".whitecard").hide();
   $(".land").hide();
 }
 
 function incolbutton() {
+  $(".whitecard").hide();
   $(".bluecard").hide();
   $(".redcard").hide();
   $(".blackcard").hide();
   $(".greencard").hide();
   $(".incolcard").show();
   $(".multicard").hide();
-  $(".whitecard").hide();
   $(".land").hide();
 }
 
 function multibutton() {
+  $(".whitecard").hide();
   $(".bluecard").hide();
   $(".redcard").hide();
   $(".blackcard").hide();
   $(".greencard").hide();
   $(".incolcard").hide();
   $(".multicard").show();
-  $(".whitecard").hide();
   $(".land").hide();
 }
 
 function allbutton() {
+  $(".whitecard").show();
   $(".bluecard").show();
   $(".redcard").show();
   $(".blackcard").show();
   $(".greencard").show();
   $(".incolcard").show();
   $(".multicard").show();
-  $(".whitecard").show();
+  
   $(".land").show();
 }
 
@@ -119,9 +120,9 @@ function communbutton() {
 }
 
 function landbutton() {
-  $(".land").show();
   $(".unco").hide();
   $(".commun").hide();
   $(".rare").hide();
   $(".mythic").hide();
+  $(".land").show();
 }

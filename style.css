@@ -8,12 +8,13 @@ body{
     align-items: center;
     height: 250px;
     margin: 40px;
-    background-color: rgb(11, 11, 11);
+    background-image: url(image/wallpaper.jpg);
     border-radius:10px;
 }
 
 .en-tete img{
     margin: auto;
+    width: 250px;
 }
 
 .corp{
@@ -30,12 +31,11 @@ body{
     text-align: center;
     line-height: 225%;
     font-family: "MS Shell Dlg 2";
-    xxxxxxbackground-color: rgb(11, 11, 11);
     background-image: url(image/win_title.jpg);
-    color: rgb(225, 225, 225);
+    color: rgb(255, 255, 255);
     height: 40px;
     border-radius: 10px;
-    margin-bottom: 10px;
+    margin-bottom: 15px;
 }
 
 .liste_mana{
@@ -72,7 +72,6 @@ body{
     width: 25px;
 }
 
-
 .d_carte{
     margin: auto;
     margin-bottom: 30px;
@@ -82,16 +81,14 @@ body{
     justify-content: center;
 }
 
-
-
 .card_container {
     position:relative;
     display:inline-block;
     margin:0px 2px 0px 2px;
 }
 
-.card_container > IMG, .carte{
-    height: 300px;
+.card_container > IMG{
+    height: 320px;
     border: 2px solid black;
     border-radius: 10px;
 }
@@ -102,25 +99,9 @@ body{
     padding: 10px;
     border-radius: 10px;
     cursor: pointer;
-}
-
-.pre-tete{
-    width: 50%;
-    margin: auto;
-    background-color: white;
-    border: 5px solid gray;
-    border-radius: 10px;
-}
-
-.choix_mana{
-    width:30px;
-}
-
-.achat{
-    border-radius: 10px;
-    margin: auto;
-    width: 95%;
-    background-color: rgb(0, 0, 0);
+    position: fixed;
+    bottom: 10px;
+    right: 10px;
 }
 
 .button_mag{
@@ -129,12 +110,7 @@ body{
     background-color: white;
 }
 
-.im_boutton{
+.button_mag > IMG{
+    margin:auto;
     width: 15px;
-}
-
-#lien_mv {
-    position: fixed;
-    bottom: 10px;
-    right: 10px;
 }
