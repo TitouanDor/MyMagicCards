@@ -6,6 +6,7 @@ function whitebutton() {
   $(".incolcard").hide();
   $(".multicard").hide();
   $(".whitecard").show();
+  $(".land").hide();
 }
 
 function bluebutton() {
@@ -16,6 +17,7 @@ function bluebutton() {
   $(".incolcard").hide();
   $(".multicard").hide();
   $(".whitecard").hide();
+  $(".land").hide();
 }
 
 function redbutton() {
@@ -26,6 +28,7 @@ function redbutton() {
   $(".incolcard").hide();
   $(".multicard").hide();
   $(".whitecard").hide();
+  $(".land").hide();
 }
 
 function blackbutton() {
@@ -36,6 +39,7 @@ function blackbutton() {
   $(".incolcard").hide();
   $(".multicard").hide();
   $(".whitecard").hide();
+  $(".land").hide();
 }
 
 function greenbutton() {
@@ -46,6 +50,7 @@ function greenbutton() {
   $(".incolcard").hide();
   $(".multicard").hide();
   $(".whitecard").hide();
+  $(".land").hide();
 }
 
 function incolbutton() {
@@ -56,6 +61,7 @@ function incolbutton() {
   $(".incolcard").show();
   $(".multicard").hide();
   $(".whitecard").hide();
+  $(".land").hide();
 }
 
 function multibutton() {
@@ -66,6 +72,7 @@ function multibutton() {
   $(".incolcard").hide();
   $(".multicard").show();
   $(".whitecard").hide();
+  $(".land").hide();
 }
 
 function allbutton() {
@@ -76,6 +83,7 @@ function allbutton() {
   $(".incolcard").show();
   $(".multicard").show();
   $(".whitecard").show();
+  $(".land").show();
 }
 
 function mythicbutton() {
@@ -83,6 +91,7 @@ function mythicbutton() {
   $(".commun").hide();
   $(".rare").hide();
   $(".mythic").show();
+  $(".land").hide();
 }
 
 function rarebutton() {
@@ -90,6 +99,7 @@ function rarebutton() {
   $(".commun").hide();
   $(".rare").show();
   $(".mythic").hide();
+  $(".land").hide();
 }
 
 function uncobutton() {
@@ -97,11 +107,21 @@ function uncobutton() {
   $(".commun").hide();
   $(".rare").hide();
   $(".mythic").hide();
+  $(".land").hide();
 }
 
 function communbutton() {
   $(".unco").hide();
   $(".commun").show();
+  $(".rare").hide();
+  $(".mythic").hide();
+  $(".land").hide();
+}
+
+function landbutton() {
+  $(".land").show();
+  $(".unco").hide();
+  $(".commun").hide();
   $(".rare").hide();
   $(".mythic").hide();
 }

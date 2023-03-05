@@ -79,11 +79,14 @@ body{
 
 .d_carte{
     margin: auto;
+    margin-bottom: 30px;
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
     justify-content: center;
 }
+
+
 
 .card_container {
     position:relative;
