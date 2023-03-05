@@ -6,12 +6,10 @@ body{
     display: flex;
     justify-content: center;
     align-items: center;
-    width: 95%;
     height: 250px;
-    margin: auto;
+    margin: 40px;
     background-color: rgb(11, 11, 11);
     border-radius:10px;
-    margin-bottom: 60px;
 }
 
 .en-tete img{
@@ -21,16 +19,13 @@ body{
 .corp{
     border: 5px solid rgb(65, 65, 255);
     border-radius: 10px;
-    margin: auto;
-    width: 95%;
+    margin: 40px;
     background-color: rgb(223, 223, 223);
     padding: 20px;
-    margin-bottom: 40px;
 
 }
 
 .liste_visu{
-    width: 95%;
     margin: auto;
     text-align: center;
     line-height: 225%;
