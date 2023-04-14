@@ -84,12 +84,11 @@ body{
 .card_container {
     position:relative;
     display:inline-block;
-    margin:0px 2px 0px 2px;
+    margin:0px 4px 0px 4px;
 }
 
 .card_container > IMG{
     height: 320px;
-    border: 2px solid black;
     border-radius: 10px;
 }
 
