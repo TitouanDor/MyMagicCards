@@ -89,6 +89,7 @@ body{
 
 .card_container > IMG{
     height: 320px;
+    border:2px black solid;
     border-radius: 10px;
 }
 
